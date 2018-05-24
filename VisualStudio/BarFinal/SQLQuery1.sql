@@ -1,0 +1,1 @@
+﻿select TblProduct.Description from TblProduct,TblProductType where TblProduct.ProductType=TblProductType.ProductType and TblProductType.ProductType=1 and TblProduct.Description="kafe"
